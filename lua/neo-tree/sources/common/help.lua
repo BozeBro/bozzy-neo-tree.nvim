@@ -46,7 +46,7 @@ M.show = function(state, title, prefix_key)
 
   local lines = { add_text("") }
   lines[1] = add_text(" Press the corresponding key to execute the command.", "Comment")
-  lines[2] = add_text("               Press <Esc> to cancel.", "Comment")
+  lines[2] = add_text("               Press jk to cancel.", "Comment")
   lines[3] = add_text("")
   local header = NuiLine()
   header:append(string.format(" %14s", "KEY(S)"), highlights.ROOT_NAME)
